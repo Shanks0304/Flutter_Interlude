@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:easy_audio_trimmer/easy_audio_trimmer.dart';
 import 'package:flutter/material.dart';
-import 'package:myapp/utils/playbtn.dart';
+import 'package:interlude/utils/playbtn.dart';
 
 class AudioTrimmerView extends StatefulWidget {
   final File file;

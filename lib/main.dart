@@ -8,13 +8,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:flutter_bluetooth_serial/flutter_bluetooth_serial.dart';
-import 'package:myapp/utils/label.dart';
-import 'package:myapp/utils/type_utils.dart';
-import 'package:myapp/utils/button.dart';
-import 'package:myapp/widget_utils/bottom_view.dart';
-import 'package:myapp/widget_utils/chat_bubble_view.dart';
-import 'package:myapp/widget_utils/dropdown_view.dart';
-import 'package:myapp/widget_utils/tab_view.dart';
+import 'package:interlude/utils/label.dart';
+import 'package:interlude/utils/type_utils.dart';
+import 'package:interlude/utils/button.dart';
+import 'package:interlude/widget_utils/bottom_view.dart';
+import 'package:interlude/widget_utils/chat_bubble_view.dart';
+import 'package:interlude/widget_utils/dropdown_view.dart';
+import 'package:interlude/widget_utils/tab_view.dart';
 import 'package:path_provider/path_provider.dart';
 import 'widget_utils/header_view.dart';
 import 'package:just_audio/just_audio.dart';
@@ -23,11 +23,11 @@ import 'package:audio_waveforms/audio_waveforms.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const Interlude());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class Interlude extends StatelessWidget {
+  const Interlude({super.key});
 
   // This widget is the root of your application.
   @override

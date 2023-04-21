@@ -1,6 +1,6 @@
 {
-    "name": "myapp",
-    "short_name": "myapp",
+    "name": "interlude",
+    "short_name": "interlude",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
