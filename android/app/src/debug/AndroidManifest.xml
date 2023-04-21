@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.example.myapp">
+	<!--
+	The INTERNET permission is required for development. Specifically,
+	the Flutter tool needs it to communicate with the running application
+	to allow setting breakpoints, to provide hot reload, etc.
+	-->
+	<!-- and this line (outside manifest tag) -->
+	<uses-sdk tools:overrideLibrary="io.github.edufolly.flutterbluetoothserial" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+</manifest>
